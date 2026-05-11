@@ -1,0 +1,72 @@
+# ------------------------
+# DEPENDENCIES
+# ------------------------
+node_modules/
+
+# ------------------------
+# BUILD OUTPUT
+# ------------------------
+dist/
+build/
+out/
+.next/
+.cache/
+.temp/
+.turbo/
+
+# ------------------------
+# ENVIRONMENT VARIABLES
+# ------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------
+# LOG FILES
+# ------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ------------------------
+# TESTING
+# ------------------------
+coverage/
+.nyc_output/
+__snapshots__/
+jest-html-reporters-*
+
+# ------------------------
+# EDITOR / IDE SETTINGS
+# ------------------------
+.idea/
+.vscode/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------
+# SYSTEM FILES
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# TYPESCRIPT / ESLINT / BABEL / VITE / NEXT
+# ------------------------
+*.tsbuildinfo
+.eslintcache
+babel-cache/
+vite.config.ts
+*.local
+
+# ------------------------
+# MISC
+# ------------------------
+*.swp
+*.swo
+*.bak
+*.orig
+*.tmp
